@@ -1,3 +1,30 @@
-#heading{
-    color: red;
+.res-cards-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-card-image {
+  height: 200px;
+  width: 250px;
+  border-radius: 30px;
+}
+.card-container {
+  padding: 4px;
+  margin: 5px;
+  cursor: pointer; /* Add cursor pointer */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+.card-container:hover {
+  transform: scale(0.95);
+}
+.rating-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10;
+}
+.point {
+  font-weight: bolder;
 }
