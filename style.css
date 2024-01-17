@@ -1,14 +1,12 @@
 .res-cards-container {
-  padding: 0;
-  margin: 0;
   display: flex;
   flex-wrap: wrap;
 }
 
 .res-card-image {
-  height: 200px;
-  width: 250px;
-  border-radius: 30px;
+  height: 190px;
+  width: 270px;
+  border-radius: 20px;
 }
 .card-container {
   padding: 4px;
@@ -27,4 +25,18 @@
 }
 .point {
   font-weight: bolder;
+}
+.search-input {
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+}
+.search-container {
+  display: flex;
+  justify-content: space-around;
+}
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20;
 }
