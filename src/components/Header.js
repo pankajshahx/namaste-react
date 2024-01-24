@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="header-container">
-      <Link to="./grocery">
-        <p>Grocery</p>
+    <div className="flex p-4 items-center justify-end bg-white shadow-xl">
+      <Link className="px-4" to="./grocery">
+        <p className="hover:text-orange-500 font-bold">Grocery</p>
       </Link>
-      <Link to="./">
+      <Link className="hover:text-orange-500 font-bold px-4" to="./">
         <p>Home</p>
       </Link>
     </div>

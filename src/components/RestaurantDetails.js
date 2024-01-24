@@ -8,10 +8,10 @@ const RestaurantDetails = () => {
     return <h1>Loading...</h1>;
   }
   return (
-    <div>
-      <h1>{resMenuDetail?.name}</h1>
-      <p>{resMenuDetail?.cuisines.slice(0, 3).join(",")}</p>
-      <h2>
+    <div className="m-4 p-4">
+      <h1 className="font-bold text-lg">{resMenuDetail?.name}</h1>
+      <p>{resMenuDetail?.cuisines.slice(0, 3).join(", ")}</p>
+      <h2 className="font-bold">
         {`${resMenuDetail?.sla?.deliveryTime} minutes - Rs. ${resMenuDetail?.costForTwoMessage}`}{" "}
       </h2>
     </div>
