@@ -29,10 +29,10 @@ function ResBody() {
   }
 
   return (
-    <div className="">
+    <div className="pt-20">
       <div className="flex justify-center pt-4">
         <input
-          className="p-2 m-2 w-[700px] border border-solid border-black rounded-md"
+          className="p-2 m-2 w-6/12 border border-solid border-black rounded-md"
           type="text"
           value={searchText}
           onChange={(e) => {
@@ -45,7 +45,7 @@ function ResBody() {
           placeholder="Search for food ..."
         />
       </div>
-      <div className="flex flex-wrap pl-32">
+      <div className="flex flex-wrap m-auto w-11/12 pl-12">
         {filteredRestaurant.map((restaurant, index) => {
           return (
             <Link
