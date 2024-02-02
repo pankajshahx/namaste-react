@@ -12,10 +12,10 @@ class User extends Component {
   render() {
     const { name, location } = this.state;
     return (
-      <>
+      <div className="m-4 p-4">
         <div>Name : {name}</div>
         <div>Location : {location}</div>
-      </>
+      </div>
     );
   }
 }

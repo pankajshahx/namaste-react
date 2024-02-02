@@ -24,18 +24,15 @@ function ResBody() {
     getRestaurants();
   }, []);
 
-  if (
-    (restaurantsList || []).length === 0 ||
-    (filteredRestaurant || []).length === 0
-  ) {
+  if ((restaurantsList || []).length === 0) {
     return <div>Loading ...</div>;
   }
 
   return (
-    <>
-      <div className="search-container">
+    <div className="pt-20">
+      <div className="flex justify-center pt-4">
         <input
-          className="search-input"
+          className="p-2 m-2 w-6/12 border border-solid border-black rounded-md"
           type="text"
           value={searchText}
           onChange={(e) => {
@@ -45,10 +42,10 @@ function ResBody() {
             );
             setFilteredRestaurant(filterRes);
           }}
-          placeholder="search..."
+          placeholder="Search for food ..."
         />
       </div>
-      <div className="res-cards-container">
+      <div className="flex flex-wrap m-auto w-11/12 pl-12">
         {filteredRestaurant.map((restaurant, index) => {
           return (
             <Link
@@ -62,7 +59,7 @@ function ResBody() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
 
