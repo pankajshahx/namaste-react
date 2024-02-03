@@ -12,7 +12,10 @@ function RestaurantCard({ restaurant }) {
     aggregatedDiscountInfoV3,
   } = info;
   return (
-    <div className="p-4 transform hover:scale-95 transition-transform duration-300">
+    <div
+      data-testid="res-card"
+      className="p-4 transform hover:scale-95 transition-transform duration-300"
+    >
       <div className="relative">
         <img
           className="w-72 rounded-lg"

@@ -1,12 +1,21 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import useOnlineStatus from "../utils/useOnlineStatus";
+import CancelIcon from "@mui/icons-material/Cancel";
 
 function Header() {
   const cartItems = useSelector((store) => store?.cart?.items);
-  console.log(cartItems);
+  const onlineStatus = useOnlineStatus();
+
   return (
     <div className="flex p-4 items-center justify-end bg-white shadow-xl fixed top-0 left-0 right-0 z-50">
+      {onlineStatus ? (
+        <CheckCircleIcon color="success" />
+      ) : (
+        <CancelIcon color="error" />
+      )}
       <Link className="hover:text-orange-500 font-bold px-4" to="./">
         <p>Home</p>
       </Link>
@@ -24,7 +33,9 @@ function Header() {
           <span className="text-white bg-green-600 px-1 group-hover:bg-orange-500">
             {cartItems?.length}
           </span>
-          <p className="ml-1">Cart</p>
+          <p data-testid="cart-item" className="ml-1">
+            Cart
+          </p>
         </div>
       </Link>
     </div>
