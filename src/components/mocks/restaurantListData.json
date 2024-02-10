@@ -1,0 +1,867 @@
+{
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+    "title": "Recommended",
+    "itemCards": [
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "102943389",
+                    "name": "Butter Chicken with Mughlai Paratha and Biryani Rice",
+                    "category": "Combos",
+                    "description": "Serves 1 | Half Butter Chicken+2 Mughlai Paratha+Half Biryani Rice",
+                    "imageId": "e085f7a391e7219144d5fc9341c2ec6e",
+                    "inStock": 1,
+                    "price": 59300,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "3.4",
+                            "ratingCount": "3 ratings",
+                            "ratingCountV2": "3"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "102943390",
+                    "name": "Chicken Handi with Mughlai Paratha and Biyani Rice",
+                    "category": "Combos",
+                    "description": "Serves 1 | Half Chicken Handi+2 Mughlai Paratha+Half Biryani Rice",
+                    "imageId": "8521cbce1575c9b570c85fc842352e15",
+                    "inStock": 1,
+                    "price": 59300,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "1.0",
+                            "ratingCount": "3 ratings",
+                            "ratingCountV2": "3"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "102943391",
+                    "name": "Chicken Masala with Mughlai Paratha and Biryani Rice",
+                    "category": "Combos",
+                    "description": "Serves 1 | Chicken Masala [Half]+2 Mughlai Paratha+Biryani Rice [Half]",
+                    "imageId": "927081e58a6396502df1b3322cbf30a6",
+                    "inStock": 1,
+                    "price": 59300,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "3.6",
+                            "ratingCount": "5 ratings",
+                            "ratingCountV2": "5"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "102943392",
+                    "name": "Half Cream Chicken with Mughali Paratha and Biryani Rice",
+                    "category": "Combos",
+                    "description": "Serves 1 | Half Cream Chicken+2 Mughlai Paratha+Biryani Rice [Half]",
+                    "imageId": "9d86358910722f0eb6c8da94283740d8",
+                    "inStock": 1,
+                    "price": 66500,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {}
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "49861112",
+                    "name": "Mutton Biryani + Coke 250 Ml Pet Bottle",
+                    "category": "Combos",
+                    "description": "Serves 1 | A tempting delicacy, this dish is made with succulent and juicy mutton, marinated with yummy boiled rice and ample of masala!.Served with 250 ml Coke",
+                    "imageId": "nezzfhhoaguof0bjqegz",
+                    "inStock": 1,
+                    "price": 24000,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "2.6",
+                            "ratingCount": "32 ratings",
+                            "ratingCountV2": "32"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "114034287",
+                    "name": "Mutton Korma (Full) + Tandoori Butter Roti (6 Rotis)",
+                    "category": "Combos",
+                    "description": "Mutton Korma (Full) + Tandoori Butter Roti (6 Rotis)",
+                    "imageId": "b9c6ddb1f824f368242820fb8b131e29",
+                    "inStock": 1,
+                    "price": 59000,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {}
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "114033259",
+                    "name": "Keema Kaleji (Full) + Tandoori Butter Roti (6 Rotis)",
+                    "category": "Combos",
+                    "description": "Keema Kaleji (Full) + Tandoori Butter Roti (6 Rotis)",
+                    "imageId": "46818a7a0bcf9fbb6b25e0dc705ae9fa",
+                    "inStock": 1,
+                    "price": 64000,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {}
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "114033263",
+                    "name": "Keema Mutton + Tandoori Butter Roti (6 Rotis)",
+                    "category": "Combos",
+                    "description": "Keema Mutton + Tandoori Butter Roti (6 Rotis)",
+                    "imageId": "b3239eaf1060fee1f2ebb89737b35f54",
+                    "inStock": 1,
+                    "price": 49000,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {}
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124695",
+                    "name": "Paneer Chilli",
+                    "category": "Starters",
+                    "description": "Serves 1",
+                    "imageId": "k8ggmpbo0fkybhhxdru8",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 20000,
+                    "variants": {
+                        "variantGroups": [
+                            {
+                                "groupId": "1547781",
+                                "name": "Quantity",
+                                "variations": [
+                                    {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "5345711",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Full",
+                                        "price": 20000,
+                                        "id": "5345713",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "VEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "3.8",
+                            "ratingCount": "110 ratings",
+                            "ratingCountV2": "110"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124697",
+                    "name": "Mushroom Chilli",
+                    "category": "Starters",
+                    "description": "Serves 1",
+                    "imageId": "ebc2f5aebfef5c0b9f99cb1a7ea2b2e7",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 20000,
+                    "variants": {
+                        "variantGroups": [
+                            {
+                                "groupId": "1547783",
+                                "name": "Quantity",
+                                "variations": [
+                                    {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "5345716",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Full",
+                                        "price": 17000,
+                                        "id": "5345717",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "VEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.4",
+                            "ratingCount": "17 ratings",
+                            "ratingCountV2": "17"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124702",
+                    "name": "Paneer Tikka",
+                    "category": "Starters",
+                    "description": "Serves 1",
+                    "imageId": "i5ujld68yuezjip2s4az",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 24000,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "VEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.2",
+                            "ratingCount": "32 ratings",
+                            "ratingCountV2": "32"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124714",
+                    "name": "Tandoori Chicken",
+                    "category": "Starters",
+                    "description": "Serves 1 | Roasted chicken marinated in yoghurt and spices in a tandoor, a cylindrical clay oven.",
+                    "imageId": "bcbc874bd4893ae3c91b03998117551f",
+                    "inStock": 1,
+                    "price": 23500,
+                    "variants": {
+                        "variantGroups": [
+                            {
+                                "groupId": "1547789",
+                                "name": "Quantity",
+                                "variations": [
+                                    {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "5345728",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Full",
+                                        "price": 16500,
+                                        "id": "5345729",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {
+                        "text": "Bestseller",
+                        "textColor": "#ffffff",
+                        "topBackgroundColor": "#d53d4c",
+                        "bottomBackgroundColor": "#b02331"
+                    },
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "isBestseller": true,
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.2",
+                            "ratingCount": "900 ratings",
+                            "ratingCountV2": "900"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124715",
+                    "name": "Afghani Chicken",
+                    "category": "Starters",
+                    "description": "Serves 1 | Succulent chicken marinated in a seasoned masala and cooked on skewers to perfection in a tandoor.",
+                    "imageId": "i45uj32a55oydsoubm1k",
+                    "inStock": 1,
+                    "price": 29000,
+                    "variants": {
+                        "variantGroups": [
+                            {
+                                "groupId": "1547790",
+                                "name": "Quantity",
+                                "variations": [
+                                    {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "5345730",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Full",
+                                        "price": 21000,
+                                        "id": "5345731",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "3.6",
+                            "ratingCount": "181 ratings",
+                            "ratingCountV2": "181"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124716",
+                    "name": "Irani Chicken",
+                    "category": "Starters",
+                    "description": "Serves 1",
+                    "imageId": "mgcuxk1ij5jiecsrhnbo",
+                    "inStock": 1,
+                    "price": 30000,
+                    "variants": {
+                        "variantGroups": [
+                            {
+                                "groupId": "1547791",
+                                "name": "Quantity",
+                                "variations": [
+                                    {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "5345732",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Full",
+                                        "price": 23000,
+                                        "id": "5345733",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "3.2",
+                            "ratingCount": "60 ratings",
+                            "ratingCountV2": "60"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124719",
+                    "name": "Chicken Malai Tikka (6 Pcs)",
+                    "category": "Starters",
+                    "description": "Serves 1 | Butter Chicken or murgh makhani is a curry of chicken in a spiced tomato, butter and cream sauce",
+                    "imageId": "ztxaopwunfgqjyq4sjsx",
+                    "inStock": 1,
+                    "price": 36500,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.2",
+                            "ratingCount": "127 ratings",
+                            "ratingCountV2": "127"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124720",
+                    "name": "Chicken Tikka (6 Pcs)",
+                    "category": "Starters",
+                    "description": "Serves 1 | Butter Chicken or murgh makhani is a curry of chicken in a spiced tomato, butter and cream sauce",
+                    "imageId": "ygwsw8dx6ubzk2t72qwq",
+                    "inStock": 1,
+                    "price": 32000,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.8",
+                            "ratingCount": "60 ratings",
+                            "ratingCountV2": "60"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124721",
+                    "name": "Chicken Seekh Kebab (2 Pcs)",
+                    "category": "Starters",
+                    "description": "Serves 1 | Super soft chunks of chicken are coated with a spicy and peppery masala and grilled to perfection.",
+                    "imageId": "7bae1c6b9d6551b4fe671a39eeca06f4",
+                    "inStock": 1,
+                    "price": 13000,
+                    "variants": {
+                        "variantGroups": [
+                            {
+                                "groupId": "1547794",
+                                "name": "Quantity",
+                                "variations": [
+                                    {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "5345738",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Full",
+                                        "price": 12000,
+                                        "id": "5345739",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.1",
+                            "ratingCount": "115 ratings",
+                            "ratingCountV2": "115"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124723",
+                    "name": "Fish Tikka (8 To 10 Pcs)",
+                    "category": "Starters",
+                    "description": "Serves 1",
+                    "imageId": "ng2ympnuicvjd1aawjaa",
+                    "inStock": 1,
+                    "price": 18500,
+                    "variants": {
+                        "variantGroups": [
+                            {
+                                "groupId": "1547795",
+                                "name": "Quantity",
+                                "variations": [
+                                    {
+                                        "name": "Full",
+                                        "price": 18000,
+                                        "default": 1,
+                                        "id": "5345741",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Half",
+                                        "id": "5345740",
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.4",
+                            "ratingCount": "175 ratings",
+                            "ratingCountV2": "175"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124741",
+                    "name": "Mutton Tikka",
+                    "category": "Starters",
+                    "description": "Serves 1",
+                    "imageId": "dg4hrpmllm8qlkexyo3h",
+                    "inStock": 1,
+                    "price": 29000,
+                    "variants": {
+                        "variantGroups": [
+                            {
+                                "groupId": "1547811",
+                                "name": "Quantity",
+                                "variations": [
+                                    {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "5345782",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Full",
+                                        "price": 23000,
+                                        "id": "5345783",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "2.9",
+                            "ratingCount": "159 ratings",
+                            "ratingCountV2": "159"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "17124713",
+                    "name": "Boneless Fish Fry",
+                    "category": "Starters",
+                    "description": "Serves 1 | This delicious crispy & spicy masaledar fish fry makes for a great appetizer or side to a meal.",
+                    "imageId": "d9vngtpzklaqe6q7mhah",
+                    "inStock": 1,
+                    "price": 32500,
+                    "variants": {
+                        "variantGroups": [
+                            {
+                                "groupId": "1547788",
+                                "name": "Quantity",
+                                "variations": [
+                                    {
+                                        "name": "Half",
+                                        "default": 1,
+                                        "id": "5345726",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "name": "Full",
+                                        "price": 32500,
+                                        "id": "5345727",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "showImage": true,
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.1",
+                            "ratingCount": "239 ratings",
+                            "ratingCountV2": "239"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        }
+    ],
+    "type": "CATEGORY_TYPE_RECOMMENDED"
+}

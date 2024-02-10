@@ -5,15 +5,15 @@ import { useDispatch } from "react-redux";
 const RestaurantMenuCardItem = ({ card }) => {
   const dispatch = useDispatch();
   const handleOnAddItem = () => {
-    console.log(card);
     dispatch(addItem(card));
   };
 
   return (
     <div className="flex w-full justify-between border-b-2 py-4">
-      <div className="flex-1">
+      <div className="flex-1 me-4">
         <p className="font-bold">
-          {card?.info?.name} ₹{card?.info?.price / 100}
+          {card?.info?.name} ₹
+          {(card?.info?.price || card?.info?.defaultPrice) / 100}
         </p>
         <p className="">{card?.info?.description}</p>
       </div>
@@ -26,6 +26,7 @@ const RestaurantMenuCardItem = ({ card }) => {
               alt={card?.info?.name}
             />
             <button
+              data-testid="addButton"
               onClick={handleOnAddItem}
               className="absolute bottom-0 text-green-500 border border-black rounded-md bg-white w-44"
             >

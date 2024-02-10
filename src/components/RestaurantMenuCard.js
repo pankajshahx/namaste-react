@@ -4,7 +4,7 @@ import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const RestaurantMenuCard = ({ menuList }) => {
-  const [showItem, setShowItem] = useState(false);
+  const [showItem, setShowItem] = useState(true);
 
   return (
     <div>
