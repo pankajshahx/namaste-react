@@ -18,10 +18,10 @@ function RestaurantCard({ restaurant }) {
     >
       <div className="relative">
         <img
-          className="w-72 rounded-lg"
+          className=" w-72 rounded-lg"
           src={IMG_CDN_URL + cloudinaryImageId}
         />
-        <h1 className="absolute text-white text-2xl font-extrabold w-72 px-2 shadow-2xl bottom-0 bg-gray-900 rounded-b-lg">
+        <h1 className="absolute text-white text-2xl font-extrabold w-72 px-2 bottom-0 rounded-b-lg bg-gradient-to-t from-gray-950">
           {(aggregatedDiscountInfoV3?.header || "") +
             " " +
             (aggregatedDiscountInfoV3?.subHeader || "")}
