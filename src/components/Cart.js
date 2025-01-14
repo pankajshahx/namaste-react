@@ -8,15 +8,16 @@ const Cart = () => {
     dispatch(clearItem());
   };
   const cartItems = useSelector((store) => store?.cart?.items);
+  const cartItemsArray = Object.values(cartItems);
   return (
     <div className="pt-20 w-6/12 m-auto">
       <button
         onClick={handleClearCart}
-        className="p-2 bg-red-600 text-white rounded-sm"
+        className="p-2 bg-red-600 text-white rounded-lg "
       >
-        Clear
+        Clear Cart
       </button>
-      {cartItems.map((cartItem) => (
+      {cartItemsArray.map((cartItem) => (
         <RestaurantMenuCardItem card={cartItem} />
       ))}
     </div>
