@@ -1,11 +1,23 @@
-import { addItem } from "../utils/cartSlice";
+import { addItem, removeItem } from "../utils/cartSlice";
 import { IMG_CDN_URL } from "../utils/constants";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 const RestaurantMenuCardItem = ({ card }) => {
   const dispatch = useDispatch();
+  const quantity = useSelector(
+    (state) => state.cart.items[card?.info?.id]?.quantity || 0
+  );
+
   const handleOnAddItem = () => {
     dispatch(addItem(card));
+  };
+
+  const handleIncrement = () => {
+    dispatch(addItem(card));
+  };
+
+  const handleDecrement = () => {
+    dispatch(removeItem(card));
   };
 
   return (
@@ -15,7 +27,7 @@ const RestaurantMenuCardItem = ({ card }) => {
           {card?.info?.name} ₹
           {(card?.info?.price || card?.info?.defaultPrice) / 100}
         </p>
-        <p className="">{card?.info?.description}</p>
+        <p className="text-xs">{card?.info?.description}</p>
       </div>
       <div className="">
         {card?.info?.imageId ? (
@@ -25,16 +37,34 @@ const RestaurantMenuCardItem = ({ card }) => {
               src={IMG_CDN_URL + card?.info?.imageId}
               alt={card?.info?.name}
             />
-            <button
-              data-testid="addButton"
-              onClick={handleOnAddItem}
-              className="absolute bottom-0 text-green-500 border border-black rounded-md bg-white w-44"
-            >
-              ADD
-            </button>
+            {quantity === 0 ? (
+              <button
+                data-testid="addButton"
+                onClick={handleOnAddItem}
+                className="absolute bottom-0 text-green-500 border border-black rounded-md bg-white w-44"
+              >
+                ADD
+              </button>
+            ) : (
+              <div className="absolute bottom-0 flex justify-between items-center w-44 bg-white border border-black rounded-md">
+                <button onClick={handleDecrement} className="text-red-500 px-2">
+                  -
+                </button>
+                <span className="text-black">{quantity}</span>
+                <button
+                  onClick={handleIncrement}
+                  className="text-green-500 px-2"
+                >
+                  +
+                </button>
+              </div>
+            )}
           </div>
         ) : (
-          <button className="text-green-500 border border-black rounded-md bg-white w-44">
+          <button
+            onClick={handleOnAddItem}
+            className="text-green-500 border border-black rounded-md bg-white w-44"
+          >
             ADD
           </button>
         )}
@@ -42,4 +72,5 @@ const RestaurantMenuCardItem = ({ card }) => {
     </div>
   );
 };
+
 export default RestaurantMenuCardItem;
