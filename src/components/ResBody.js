@@ -10,6 +10,7 @@ function ResBody() {
 
   async function getRestaurants() {
     const data = await fetch(API_URL);
+
     const json = await data.json();
     console.log(json);
     setRestaurantsList(
@@ -32,6 +33,7 @@ function ResBody() {
     <div className="pt-20">
       <div className="flex justify-center pt-4">
         <input
+          data-testid="search-input"
           className="p-2 m-2 w-6/12 border border-solid border-black rounded-md"
           type="text"
           value={searchText}
