@@ -10,7 +10,9 @@ function ResBody() {
 
   async function getRestaurants() {
     const data = await fetch(API_URL);
+
     const json = await data.json();
+    console.log(json);
     setRestaurantsList(
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
