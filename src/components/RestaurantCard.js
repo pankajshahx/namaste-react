@@ -1,6 +1,6 @@
 import React from "react";
-import { IMG_CDN_URL } from "../utils/constants";
 import StarsIcon from "@mui/icons-material/Stars";
+import { IMG_CDN_URL } from "../utils/constants";
 function RestaurantCard({ restaurant }) {
   const { info } = restaurant;
   const {
